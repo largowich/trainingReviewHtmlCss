@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url("background.jpg");
+    text-align: center;
+    color: black;
+    padding: 30px 30px 150px 30px;
+    background-position: center center;
+    height: 320px;
+}
+
+header h1 {
+    font-size: 6em;
+    margin-top: 150px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    padding-bottom: 15px;
+}
+
+header h2 {
+    font-size: 2.5em;
+    margin-top: -25px;
+    font-style: italic;
+}
+
+header h1, header h2 {
+    text-shadow: 0 0 10px black;
+}
+
+header button {
+    padding: 15px;
+    width: 275px;
+    font-size: 1.5em;
+    background: rgb(0, 155, 235);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgb(0, 55, 135);
+}
+
+header button:active{
+    box-shadow:none;
+    position:relative;
+    top:2px;
+}
+
+.menu{
+    list-style: none;
+   /* position the elements right*/
+    float:right;
+    margin-right: 30px;
+}
+
+.menu li{
+    /* enter elements on a single line*/
+    display:inline;
+    margin-right:40px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:slateblue;
+    font-size:1.2em;
+}
